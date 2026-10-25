@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "format": "prettier --write index.html styles.css app.js README.md package.json .prettierrc.json",
+    "format:check": "prettier --check index.html styles.css app.js README.md package.json .prettierrc.json"
+  },
+  "devDependencies": {
+    "prettier": "^3.9.10"
+  }
+}
